@@ -105,7 +105,7 @@ class keytest ( wx.Frame ):
 		bSizer67.Add( self.m_scroll, 0, wx.ALL, 0 )
 
 		self.m_break = wx.Button( self.m_uk, wx.ID_ANY, u"Pause\nBreak", wx.DefaultPosition, wx.Size( 38,35 ), 0 )
-		self.m_break.SetFont( wx.Font( 7, wx.FONTFAMILY_DEFAULT, wx.FONTSTYLE_NORMAL, wx.FONTWEIGHT_NORMAL, False, wx.EmptyString ) )
+		self.m_break.SetFont( wx.Font( 6, wx.FONTFAMILY_DEFAULT, wx.FONTSTYLE_NORMAL, wx.FONTWEIGHT_NORMAL, False, wx.EmptyString ) )
 
 		bSizer67.Add( self.m_break, 0, wx.ALL, 0 )
 
@@ -115,8 +115,6 @@ class keytest ( wx.Frame ):
 		self.m_KADE1 = wx.BitmapButton( self.m_uk, wx.ID_ANY, wx.NullBitmap, wx.DefaultPosition, wx.Size( 136,35 ), wx.BU_AUTODRAW|wx.BORDER_NONE|wx.BORDER_NONE )
 
 		self.m_KADE1.SetBitmap( wx.Bitmap( u"resources/keyboard.png", wx.BITMAP_TYPE_ANY ) )
-		self.m_KADE1.SetToolTip( u"Click logo to visit the KADE website" )
-
 		bSizer67.Add( self.m_KADE1, 0, 0, 5 )
 
 
@@ -211,7 +209,7 @@ class keytest ( wx.Frame ):
 		bSizer68.Add( self.m_home, 0, wx.ALL, 0 )
 
 		self.m_page_up = wx.Button( self.m_uk, wx.ID_ANY, u"Page\nUp", wx.DefaultPosition, wx.Size( 38,35 ), 0 )
-		self.m_page_up.SetFont( wx.Font( 7, wx.FONTFAMILY_DEFAULT, wx.FONTSTYLE_NORMAL, wx.FONTWEIGHT_NORMAL, False, wx.EmptyString ) )
+		self.m_page_up.SetFont( wx.Font( 6, wx.FONTFAMILY_DEFAULT, wx.FONTSTYLE_NORMAL, wx.FONTWEIGHT_NORMAL, False, wx.EmptyString ) )
 
 		bSizer68.Add( self.m_page_up, 0, wx.ALL, 0 )
 
@@ -296,7 +294,7 @@ class keytest ( wx.Frame ):
 		bSizer81 = wx.BoxSizer( wx.HORIZONTAL )
 
 		self.m_caps_lock = wx.Button( self.m_uk, wx.ID_ANY, u"Caps\nLock", wx.DefaultPosition, wx.Size( 36,35 ), 0 )
-		self.m_caps_lock.SetFont( wx.Font( 8, wx.FONTFAMILY_DEFAULT, wx.FONTSTYLE_NORMAL, wx.FONTWEIGHT_NORMAL, False, wx.EmptyString ) )
+		self.m_caps_lock.SetFont( wx.Font( 6, wx.FONTFAMILY_DEFAULT, wx.FONTSTYLE_NORMAL, wx.FONTWEIGHT_NORMAL, False, wx.EmptyString ) )
 
 		bSizer81.Add( self.m_caps_lock, 0, wx.ALL, 0 )
 
@@ -369,7 +367,7 @@ class keytest ( wx.Frame ):
 		bSizer681.Add( self.m_end, 0, wx.ALL, 0 )
 
 		self.m_page_down = wx.Button( self.m_uk, wx.ID_ANY, u"Page\nDown", wx.DefaultPosition, wx.Size( 38,35 ), 0 )
-		self.m_page_down.SetFont( wx.Font( 7, wx.FONTFAMILY_DEFAULT, wx.FONTSTYLE_NORMAL, wx.FONTWEIGHT_NORMAL, False, wx.EmptyString ) )
+		self.m_page_down.SetFont( wx.Font( 6, wx.FONTFAMILY_DEFAULT, wx.FONTSTYLE_NORMAL, wx.FONTWEIGHT_NORMAL, False, wx.EmptyString ) )
 
 		bSizer681.Add( self.m_page_down, 0, wx.ALL, 0 )
 
@@ -377,17 +375,17 @@ class keytest ( wx.Frame ):
 		bSizer681.Add( ( 8, 0), 0, wx.EXPAND, 5 )
 
 		self.m_num7 = wx.Button( self.m_uk, wx.ID_ANY, u"7\nHme", wx.DefaultPosition, wx.Size( 38,35 ), 0 )
-		self.m_num7.SetFont( wx.Font( 8, wx.FONTFAMILY_DEFAULT, wx.FONTSTYLE_NORMAL, wx.FONTWEIGHT_NORMAL, False, wx.EmptyString ) )
+		self.m_num7.SetFont( wx.Font( 6, wx.FONTFAMILY_DEFAULT, wx.FONTSTYLE_NORMAL, wx.FONTWEIGHT_NORMAL, False, wx.EmptyString ) )
 
 		bSizer681.Add( self.m_num7, 0, wx.ALL, 0 )
 
 		self.m_num8 = wx.Button( self.m_uk, wx.ID_ANY, u"8\n˄", wx.DefaultPosition, wx.Size( 38,35 ), 0 )
-		self.m_num8.SetFont( wx.Font( 8, wx.FONTFAMILY_DEFAULT, wx.FONTSTYLE_NORMAL, wx.FONTWEIGHT_NORMAL, False, wx.EmptyString ) )
+		self.m_num8.SetFont( wx.Font( 6, wx.FONTFAMILY_DEFAULT, wx.FONTSTYLE_NORMAL, wx.FONTWEIGHT_NORMAL, False, wx.EmptyString ) )
 
 		bSizer681.Add( self.m_num8, 0, wx.ALL, 0 )
 
 		self.m_num9 = wx.Button( self.m_uk, wx.ID_ANY, u"9\nPgUp", wx.DefaultPosition, wx.Size( 38,35 ), 0 )
-		self.m_num9.SetFont( wx.Font( 8, wx.FONTFAMILY_DEFAULT, wx.FONTSTYLE_NORMAL, wx.FONTWEIGHT_NORMAL, False, wx.EmptyString ) )
+		self.m_num9.SetFont( wx.Font( 6, wx.FONTFAMILY_DEFAULT, wx.FONTSTYLE_NORMAL, wx.FONTWEIGHT_NORMAL, False, wx.EmptyString ) )
 
 		bSizer681.Add( self.m_num9, 0, wx.ALL, 0 )
 
@@ -400,17 +398,17 @@ class keytest ( wx.Frame ):
 		bSizer6811.Add( ( 130, 0), 0, wx.EXPAND, 5 )
 
 		self.m_num4 = wx.Button( self.m_uk, wx.ID_ANY, u"4\n˂", wx.DefaultPosition, wx.Size( 38,35 ), 0 )
-		self.m_num4.SetFont( wx.Font( 8, wx.FONTFAMILY_DEFAULT, wx.FONTSTYLE_NORMAL, wx.FONTWEIGHT_NORMAL, False, wx.EmptyString ) )
+		self.m_num4.SetFont( wx.Font( 6, wx.FONTFAMILY_DEFAULT, wx.FONTSTYLE_NORMAL, wx.FONTWEIGHT_NORMAL, False, wx.EmptyString ) )
 
 		bSizer6811.Add( self.m_num4, 0, wx.ALL, 0 )
 
 		self.m_num5 = wx.Button( self.m_uk, wx.ID_ANY, u"5", wx.DefaultPosition, wx.Size( 38,35 ), 0 )
-		self.m_num5.SetFont( wx.Font( 8, wx.FONTFAMILY_DEFAULT, wx.FONTSTYLE_NORMAL, wx.FONTWEIGHT_NORMAL, False, wx.EmptyString ) )
+		self.m_num5.SetFont( wx.Font( 6, wx.FONTFAMILY_DEFAULT, wx.FONTSTYLE_NORMAL, wx.FONTWEIGHT_NORMAL, False, wx.EmptyString ) )
 
 		bSizer6811.Add( self.m_num5, 0, wx.ALL, 0 )
 
 		self.m_num6 = wx.Button( self.m_uk, wx.ID_ANY, u"6\n˃", wx.DefaultPosition, wx.Size( 38,35 ), 0 )
-		self.m_num6.SetFont( wx.Font( 8, wx.FONTFAMILY_DEFAULT, wx.FONTSTYLE_NORMAL, wx.FONTWEIGHT_NORMAL, False, wx.EmptyString ) )
+		self.m_num6.SetFont( wx.Font( 6, wx.FONTFAMILY_DEFAULT, wx.FONTSTYLE_NORMAL, wx.FONTWEIGHT_NORMAL, False, wx.EmptyString ) )
 
 		bSizer6811.Add( self.m_num6, 0, wx.ALL, 0 )
 
@@ -544,17 +542,17 @@ class keytest ( wx.Frame ):
 		bSizer6812.Add( ( 8, 0), 0, wx.EXPAND, 5 )
 
 		self.m_num1 = wx.Button( self.m_uk, wx.ID_ANY, u"1\nEnd", wx.DefaultPosition, wx.Size( 38,35 ), 0 )
-		self.m_num1.SetFont( wx.Font( 8, wx.FONTFAMILY_DEFAULT, wx.FONTSTYLE_NORMAL, wx.FONTWEIGHT_NORMAL, False, wx.EmptyString ) )
+		self.m_num1.SetFont( wx.Font( 6, wx.FONTFAMILY_DEFAULT, wx.FONTSTYLE_NORMAL, wx.FONTWEIGHT_NORMAL, False, wx.EmptyString ) )
 
 		bSizer6812.Add( self.m_num1, 0, wx.ALL, 0 )
 
 		self.m_num2 = wx.Button( self.m_uk, wx.ID_ANY, u"2\n˅", wx.DefaultPosition, wx.Size( 38,35 ), 0 )
-		self.m_num2.SetFont( wx.Font( 8, wx.FONTFAMILY_DEFAULT, wx.FONTSTYLE_NORMAL, wx.FONTWEIGHT_NORMAL, False, wx.EmptyString ) )
+		self.m_num2.SetFont( wx.Font( 6, wx.FONTFAMILY_DEFAULT, wx.FONTSTYLE_NORMAL, wx.FONTWEIGHT_NORMAL, False, wx.EmptyString ) )
 
 		bSizer6812.Add( self.m_num2, 0, wx.ALL, 0 )
 
 		self.m_num3 = wx.Button( self.m_uk, wx.ID_ANY, u"3\nPgDn", wx.DefaultPosition, wx.Size( 38,35 ), 0 )
-		self.m_num3.SetFont( wx.Font( 8, wx.FONTFAMILY_DEFAULT, wx.FONTSTYLE_NORMAL, wx.FONTWEIGHT_NORMAL, False, wx.EmptyString ) )
+		self.m_num3.SetFont( wx.Font( 6, wx.FONTFAMILY_DEFAULT, wx.FONTSTYLE_NORMAL, wx.FONTWEIGHT_NORMAL, False, wx.EmptyString ) )
 
 		bSizer6812.Add( self.m_num3, 0, wx.ALL, 0 )
 
@@ -585,12 +583,12 @@ class keytest ( wx.Frame ):
 		bSizer68111.Add( ( 8, 0), 0, wx.EXPAND, 5 )
 
 		self.m_num0 = wx.Button( self.m_uk, wx.ID_ANY, u"0\nIns", wx.DefaultPosition, wx.Size( 76,35 ), 0 )
-		self.m_num0.SetFont( wx.Font( 8, wx.FONTFAMILY_DEFAULT, wx.FONTSTYLE_NORMAL, wx.FONTWEIGHT_NORMAL, False, wx.EmptyString ) )
+		self.m_num0.SetFont( wx.Font( 7, wx.FONTFAMILY_DEFAULT, wx.FONTSTYLE_NORMAL, wx.FONTWEIGHT_NORMAL, False, wx.EmptyString ) )
 
 		bSizer68111.Add( self.m_num0, 0, wx.ALL, 0 )
 
 		self.m_num_period = wx.Button( self.m_uk, wx.ID_ANY, u".\nDel", wx.DefaultPosition, wx.Size( 38,35 ), 0 )
-		self.m_num_period.SetFont( wx.Font( 8, wx.FONTFAMILY_DEFAULT, wx.FONTSTYLE_NORMAL, wx.FONTWEIGHT_NORMAL, False, wx.EmptyString ) )
+		self.m_num_period.SetFont( wx.Font( 7, wx.FONTFAMILY_DEFAULT, wx.FONTSTYLE_NORMAL, wx.FONTWEIGHT_NORMAL, False, wx.EmptyString ) )
 
 		bSizer68111.Add( self.m_num_period, 0, wx.ALL, 0 )
 
@@ -601,7 +599,7 @@ class keytest ( wx.Frame ):
 		bSizer91.Add( bSizer151, 0, wx.EXPAND, 0 )
 
 		self.m_num_enter = wx.Button( self.m_uk, wx.ID_ANY, u"Enter", wx.DefaultPosition, wx.Size( 38,70 ), 0 )
-		self.m_num_enter.SetFont( wx.Font( 8, wx.FONTFAMILY_DEFAULT, wx.FONTSTYLE_NORMAL, wx.FONTWEIGHT_NORMAL, False, wx.EmptyString ) )
+		self.m_num_enter.SetFont( wx.Font( 7, wx.FONTFAMILY_DEFAULT, wx.FONTSTYLE_NORMAL, wx.FONTWEIGHT_NORMAL, False, wx.EmptyString ) )
 
 		bSizer91.Add( self.m_num_enter, 0, wx.ALL, 0 )
 
@@ -693,7 +691,7 @@ class keytest ( wx.Frame ):
 		bSizer671.Add( self.mus_scroll, 0, wx.ALL, 0 )
 
 		self.mus_break = wx.Button( self.m_us, wx.ID_ANY, u"Pause\nBreak", wx.DefaultPosition, wx.Size( 38,35 ), 0 )
-		self.mus_break.SetFont( wx.Font( 7, wx.FONTFAMILY_DEFAULT, wx.FONTSTYLE_NORMAL, wx.FONTWEIGHT_NORMAL, False, wx.EmptyString ) )
+		self.mus_break.SetFont( wx.Font( 6, wx.FONTFAMILY_DEFAULT, wx.FONTSTYLE_NORMAL, wx.FONTWEIGHT_NORMAL, False, wx.EmptyString ) )
 
 		bSizer671.Add( self.mus_break, 0, wx.ALL, 0 )
 
@@ -703,8 +701,6 @@ class keytest ( wx.Frame ):
 		self.m_KADE2 = wx.BitmapButton( self.m_us, wx.ID_ANY, wx.NullBitmap, wx.DefaultPosition, wx.Size( 136,35 ), wx.BU_AUTODRAW|0|wx.BORDER_NONE )
 
 		self.m_KADE2.SetBitmap( wx.Bitmap( u"resources/keyboard.png", wx.BITMAP_TYPE_ANY ) )
-		self.m_KADE2.SetToolTip( u"Click logo to visit the KADE website" )
-
 		bSizer671.Add( self.m_KADE2, 0, 0, 5 )
 
 
@@ -799,7 +795,7 @@ class keytest ( wx.Frame ):
 		bSizer682.Add( self.mus_home, 0, wx.ALL, 0 )
 
 		self.mus_page_up = wx.Button( self.m_us, wx.ID_ANY, u"Page\nUp", wx.DefaultPosition, wx.Size( 38,35 ), 0 )
-		self.mus_page_up.SetFont( wx.Font( 7, wx.FONTFAMILY_DEFAULT, wx.FONTSTYLE_NORMAL, wx.FONTWEIGHT_NORMAL, False, wx.EmptyString ) )
+		self.mus_page_up.SetFont( wx.Font( 6, wx.FONTFAMILY_DEFAULT, wx.FONTSTYLE_NORMAL, wx.FONTWEIGHT_NORMAL, False, wx.EmptyString ) )
 
 		bSizer682.Add( self.mus_page_up, 0, wx.ALL, 0 )
 
@@ -957,7 +953,7 @@ class keytest ( wx.Frame ):
 		bSizer6813.Add( self.mus_end, 0, wx.ALL, 0 )
 
 		self.mus_page_down = wx.Button( self.m_us, wx.ID_ANY, u"Page\nDown", wx.DefaultPosition, wx.Size( 38,35 ), 0 )
-		self.mus_page_down.SetFont( wx.Font( 7, wx.FONTFAMILY_DEFAULT, wx.FONTSTYLE_NORMAL, wx.FONTWEIGHT_NORMAL, False, wx.EmptyString ) )
+		self.mus_page_down.SetFont( wx.Font( 6, wx.FONTFAMILY_DEFAULT, wx.FONTSTYLE_NORMAL, wx.FONTWEIGHT_NORMAL, False, wx.EmptyString ) )
 
 		bSizer6813.Add( self.mus_page_down, 0, wx.ALL, 0 )
 
@@ -965,17 +961,17 @@ class keytest ( wx.Frame ):
 		bSizer6813.Add( ( 8, 0), 0, wx.EXPAND, 5 )
 
 		self.mus_num7 = wx.Button( self.m_us, wx.ID_ANY, u"7\nHme", wx.DefaultPosition, wx.Size( 38,35 ), 0 )
-		self.mus_num7.SetFont( wx.Font( 8, wx.FONTFAMILY_DEFAULT, wx.FONTSTYLE_NORMAL, wx.FONTWEIGHT_NORMAL, False, wx.EmptyString ) )
+		self.mus_num7.SetFont( wx.Font( 6, wx.FONTFAMILY_DEFAULT, wx.FONTSTYLE_NORMAL, wx.FONTWEIGHT_NORMAL, False, wx.EmptyString ) )
 
 		bSizer6813.Add( self.mus_num7, 0, wx.ALL, 0 )
 
 		self.mus_num8 = wx.Button( self.m_us, wx.ID_ANY, u"8\n˄", wx.DefaultPosition, wx.Size( 38,35 ), 0 )
-		self.mus_num8.SetFont( wx.Font( 8, wx.FONTFAMILY_DEFAULT, wx.FONTSTYLE_NORMAL, wx.FONTWEIGHT_NORMAL, False, wx.EmptyString ) )
+		self.mus_num8.SetFont( wx.Font( 6, wx.FONTFAMILY_DEFAULT, wx.FONTSTYLE_NORMAL, wx.FONTWEIGHT_NORMAL, False, wx.EmptyString ) )
 
 		bSizer6813.Add( self.mus_num8, 0, wx.ALL, 0 )
 
 		self.mus_num9 = wx.Button( self.m_us, wx.ID_ANY, u"9\nPgUp", wx.DefaultPosition, wx.Size( 38,35 ), 0 )
-		self.mus_num9.SetFont( wx.Font( 8, wx.FONTFAMILY_DEFAULT, wx.FONTSTYLE_NORMAL, wx.FONTWEIGHT_NORMAL, False, wx.EmptyString ) )
+		self.mus_num9.SetFont( wx.Font( 6, wx.FONTFAMILY_DEFAULT, wx.FONTSTYLE_NORMAL, wx.FONTWEIGHT_NORMAL, False, wx.EmptyString ) )
 
 		bSizer6813.Add( self.mus_num9, 0, wx.ALL, 0 )
 
@@ -988,17 +984,17 @@ class keytest ( wx.Frame ):
 		bSizer68112.Add( ( 130, 0), 0, wx.EXPAND, 5 )
 
 		self.mus_num4 = wx.Button( self.m_us, wx.ID_ANY, u"4\n˂", wx.DefaultPosition, wx.Size( 38,35 ), 0 )
-		self.mus_num4.SetFont( wx.Font( 8, wx.FONTFAMILY_DEFAULT, wx.FONTSTYLE_NORMAL, wx.FONTWEIGHT_NORMAL, False, wx.EmptyString ) )
+		self.mus_num4.SetFont( wx.Font( 6, wx.FONTFAMILY_DEFAULT, wx.FONTSTYLE_NORMAL, wx.FONTWEIGHT_NORMAL, False, wx.EmptyString ) )
 
 		bSizer68112.Add( self.mus_num4, 0, wx.ALL, 0 )
 
 		self.mus_num5 = wx.Button( self.m_us, wx.ID_ANY, u"5", wx.DefaultPosition, wx.Size( 38,35 ), 0 )
-		self.mus_num5.SetFont( wx.Font( 8, wx.FONTFAMILY_DEFAULT, wx.FONTSTYLE_NORMAL, wx.FONTWEIGHT_NORMAL, False, wx.EmptyString ) )
+		self.mus_num5.SetFont( wx.Font( 6, wx.FONTFAMILY_DEFAULT, wx.FONTSTYLE_NORMAL, wx.FONTWEIGHT_NORMAL, False, wx.EmptyString ) )
 
 		bSizer68112.Add( self.mus_num5, 0, wx.ALL, 0 )
 
 		self.mus_num6 = wx.Button( self.m_us, wx.ID_ANY, u"6\n˃", wx.DefaultPosition, wx.Size( 38,35 ), 0 )
-		self.mus_num6.SetFont( wx.Font( 8, wx.FONTFAMILY_DEFAULT, wx.FONTSTYLE_NORMAL, wx.FONTWEIGHT_NORMAL, False, wx.EmptyString ) )
+		self.mus_num6.SetFont( wx.Font( 6, wx.FONTFAMILY_DEFAULT, wx.FONTSTYLE_NORMAL, wx.FONTWEIGHT_NORMAL, False, wx.EmptyString ) )
 
 		bSizer68112.Add( self.mus_num6, 0, wx.ALL, 0 )
 
@@ -1127,17 +1123,17 @@ class keytest ( wx.Frame ):
 		bSizer68121.Add( ( 8, 0), 0, wx.EXPAND, 5 )
 
 		self.mus_num1 = wx.Button( self.m_us, wx.ID_ANY, u"1\nEnd", wx.DefaultPosition, wx.Size( 38,35 ), 0 )
-		self.mus_num1.SetFont( wx.Font( 8, wx.FONTFAMILY_DEFAULT, wx.FONTSTYLE_NORMAL, wx.FONTWEIGHT_NORMAL, False, wx.EmptyString ) )
+		self.mus_num1.SetFont( wx.Font( 6, wx.FONTFAMILY_DEFAULT, wx.FONTSTYLE_NORMAL, wx.FONTWEIGHT_NORMAL, False, wx.EmptyString ) )
 
 		bSizer68121.Add( self.mus_num1, 0, wx.ALL, 0 )
 
 		self.mus_num2 = wx.Button( self.m_us, wx.ID_ANY, u"2\n˅", wx.DefaultPosition, wx.Size( 38,35 ), 0 )
-		self.mus_num2.SetFont( wx.Font( 8, wx.FONTFAMILY_DEFAULT, wx.FONTSTYLE_NORMAL, wx.FONTWEIGHT_NORMAL, False, wx.EmptyString ) )
+		self.mus_num2.SetFont( wx.Font( 6, wx.FONTFAMILY_DEFAULT, wx.FONTSTYLE_NORMAL, wx.FONTWEIGHT_NORMAL, False, wx.EmptyString ) )
 
 		bSizer68121.Add( self.mus_num2, 0, wx.ALL, 0 )
 
 		self.mus_num3 = wx.Button( self.m_us, wx.ID_ANY, u"3\nPgDn", wx.DefaultPosition, wx.Size( 38,35 ), 0 )
-		self.mus_num3.SetFont( wx.Font( 8, wx.FONTFAMILY_DEFAULT, wx.FONTSTYLE_NORMAL, wx.FONTWEIGHT_NORMAL, False, wx.EmptyString ) )
+		self.mus_num3.SetFont( wx.Font( 6, wx.FONTFAMILY_DEFAULT, wx.FONTSTYLE_NORMAL, wx.FONTWEIGHT_NORMAL, False, wx.EmptyString ) )
 
 		bSizer68121.Add( self.mus_num3, 0, wx.ALL, 0 )
 
@@ -1168,12 +1164,12 @@ class keytest ( wx.Frame ):
 		bSizer681111.Add( ( 8, 0), 0, wx.EXPAND, 5 )
 
 		self.mus_num0 = wx.Button( self.m_us, wx.ID_ANY, u"0\nIns", wx.DefaultPosition, wx.Size( 76,35 ), 0 )
-		self.mus_num0.SetFont( wx.Font( 8, wx.FONTFAMILY_DEFAULT, wx.FONTSTYLE_NORMAL, wx.FONTWEIGHT_NORMAL, False, wx.EmptyString ) )
+		self.mus_num0.SetFont( wx.Font( 7, wx.FONTFAMILY_DEFAULT, wx.FONTSTYLE_NORMAL, wx.FONTWEIGHT_NORMAL, False, wx.EmptyString ) )
 
 		bSizer681111.Add( self.mus_num0, 0, wx.ALL, 0 )
 
 		self.mus_num_period = wx.Button( self.m_us, wx.ID_ANY, u".\nDel", wx.DefaultPosition, wx.Size( 38,35 ), 0 )
-		self.mus_num_period.SetFont( wx.Font( 8, wx.FONTFAMILY_DEFAULT, wx.FONTSTYLE_NORMAL, wx.FONTWEIGHT_NORMAL, False, wx.EmptyString ) )
+		self.mus_num_period.SetFont( wx.Font( 7, wx.FONTFAMILY_DEFAULT, wx.FONTSTYLE_NORMAL, wx.FONTWEIGHT_NORMAL, False, wx.EmptyString ) )
 
 		bSizer681111.Add( self.mus_num_period, 0, wx.ALL, 0 )
 
@@ -1184,7 +1180,7 @@ class keytest ( wx.Frame ):
 		bSizer911.Add( bSizer1511, 0, wx.EXPAND, 0 )
 
 		self.mus_num_enter = wx.Button( self.m_us, wx.ID_ANY, u"Enter", wx.DefaultPosition, wx.Size( 38,70 ), 0 )
-		self.mus_num_enter.SetFont( wx.Font( 8, wx.FONTFAMILY_DEFAULT, wx.FONTSTYLE_NORMAL, wx.FONTWEIGHT_NORMAL, False, wx.EmptyString ) )
+		self.mus_num_enter.SetFont( wx.Font( 7, wx.FONTFAMILY_DEFAULT, wx.FONTSTYLE_NORMAL, wx.FONTWEIGHT_NORMAL, False, wx.EmptyString ) )
 
 		bSizer911.Add( self.mus_num_enter, 0, wx.ALL, 0 )
 
@@ -1232,14 +1228,14 @@ class keytest ( wx.Frame ):
 		m_keyboardChoices = [ u"UK Keyboard", u"US Keyboard" ]
 		self.m_keyboard = wx.Choice( self.m_panel1, wx.ID_ANY, wx.DefaultPosition, wx.Size( 100,18 ), m_keyboardChoices, 0 )
 		self.m_keyboard.SetSelection( 0 )
-		self.m_keyboard.SetFont( wx.Font( 7, wx.FONTFAMILY_DEFAULT, wx.FONTSTYLE_NORMAL, wx.FONTWEIGHT_NORMAL, False, wx.EmptyString ) )
+		self.m_keyboard.SetFont( wx.Font( 6, wx.FONTFAMILY_DEFAULT, wx.FONTSTYLE_NORMAL, wx.FONTWEIGHT_NORMAL, False, wx.EmptyString ) )
 
 		bSizer26.Add( self.m_keyboard, 0, wx.ALL, 2 )
 
 		m_speakChoices = [ u"No speech", u"Say Key", u"Say MAME", u"Say Pinball" ]
 		self.m_speak = wx.Choice( self.m_panel1, wx.ID_ANY, wx.DefaultPosition, wx.Size( 90,18 ), m_speakChoices, 0 )
 		self.m_speak.SetSelection( 0 )
-		self.m_speak.SetFont( wx.Font( 7, wx.FONTFAMILY_DEFAULT, wx.FONTSTYLE_NORMAL, wx.FONTWEIGHT_NORMAL, False, wx.EmptyString ) )
+		self.m_speak.SetFont( wx.Font( 6, wx.FONTFAMILY_DEFAULT, wx.FONTSTYLE_NORMAL, wx.FONTWEIGHT_NORMAL, False, wx.EmptyString ) )
 
 		bSizer26.Add( self.m_speak, 0, wx.ALL, 2 )
 
