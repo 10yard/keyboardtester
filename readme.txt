@@ -1,5 +1,6 @@
-Keyboard Input Test Utility
+# **Keyboard Input Test Utility** #
 by 10yard (a.k.a. Degenatrons)
+
 
 A general purpose keyboard test utility which will echo pressed keys to a virtual on-screen
 keyboard.  Currently the utility has UK and US visual keyboards but would support many
@@ -15,7 +16,20 @@ To assist those that are setting up encoders for use with MAME and Pinball,  I h
 included the default function name that is assigned to the key press.
 
 
-VERSION HISTORY:
+![Screenshot](https://github.com/10yard/keyboardtester/blob/main/screenshot.png)
+
+
+## DOWNLOADS
+
+The latest release is available to download from below.
+
+| Download Link                                                                                                                    | Operating System                          |
+| -------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------|
+| [keyboard_tester_v0_2_win64.zip](https://github.com/10yard/keyboardtester/releases/download/v0.2/keyboard_tester_v0_2_win64.zip) | Windows 64 bit (x64) systems: 10, 11      |
+| [keyboard_tester_v0_2_win32.zip](https://github.com/10yard/keyboardtester/releases/download/v0.2/keyboard_tester_v0_2_win32.zip) | Windows 32 bit (x86) systems: Vista, 7, 8 |
+
+
+## VERSION HISTORY
 
 v0.2.0.0 - 08/08/2023
   Update sources to modern Python version.  Switch to pyWinHook package.
