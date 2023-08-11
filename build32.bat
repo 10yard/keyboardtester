@@ -3,4 +3,4 @@ venv32\Scripts\pyinstaller --onefile keytest.py --clean --windowed --icon resour
 xcopy resources dist\resources /S /i /Y
 copy version.txt dist\ /Y
 copy license.txt dist\ /Y
-copy readme.txt  dist\ /Y
+copy readme.md  dist\ /Y
